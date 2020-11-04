@@ -5,8 +5,8 @@ const net = require('net');
  */
 const connect = function() {
   const conn = net.createConnection({ 
-    host: '192.168.1.31',
-    port: 50541
+    host: '135.23.222.131',
+    port: 50542
   });
   // interpret incoming data as text
   conn.setEncoding('utf8'); 
